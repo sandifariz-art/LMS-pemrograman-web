@@ -133,7 +133,17 @@ nav .logo {
     background: linear-gradient(45deg, var(--primary), var(--secondary));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
     background-clip: text;
+    color: transparent;
+}
+
+@supports not (background-clip: text) {
+    nav .logo {
+        color: var(--primary);
+        background: none;
+    }
 }
 
 nav ul {
@@ -192,12 +202,22 @@ nav ul li a:hover {
     font-size: 80px;
     font-weight: 800;
     margin-bottom: 20px;
-    background: linear-gradient(45deg, var(--primary), var(--accent), var(--secondary));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    animation: gradient 3s ease infinite;
-    background-size: 200% 200%;
+    /* Gunakan color biasa untuk Firefox */
+    color: var(--accent);
+    position: relative;
+}
+
+/* Gradient overlay untuk browser yang support */
+@supports (background-clip: text) or (-webkit-background-clip: text) {
+    .hero h1 {
+        background: linear-gradient(45deg, var(--primary), var(--accent), var(--secondary));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        color: transparent;
+        animation: gradient 3s ease infinite;
+        background-size: 200% 200%;
+    }
 }
 
 @keyframes gradient {
@@ -390,7 +410,17 @@ section {
     background: linear-gradient(45deg, var(--primary), var(--accent));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
     background-clip: text;
+    color: transparent;
+}
+
+@supports not (background-clip: text) {
+    .stat-number {
+        color: var(--primary);
+        background: none;
+    }
 }
 
 .stat-label {
