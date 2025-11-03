@@ -23,7 +23,7 @@ Portfolio CV online modern dan interaktif yang dibangun dengan HTML, CSS, dan Ja
 
 ## 🎯 Demo
 
-**Live Demo:** [Lihat Demo](https://your-username.github.io) *(Ganti dengan link Anda)*
+**Live Demo:** [Lihat Demo](https://sandifariz-art.github.io/LMS-pemrograman-web/tugas-3/) 
 
 ### Preview
 
@@ -92,10 +92,10 @@ Tidak ada prerequisites khusus! Cukup browser modern.
 
 ```bash
 # Clone repository
-git clone https://github.com/your-username/portfolio-cv.git
+git clone https://github.com/sandifariz-art/LMS-pemrograman-web.git
 
 # Masuk ke directory
-cd portfolio-cv
+cd LMS-pemrograman-web
 
 # Buka di browser
 # Double click index.html atau gunakan live server
@@ -117,7 +117,7 @@ portfolio-cv/
 ├── script.js           # JavaScript untuk interactivity
 ├── README.md           # Dokumentasi proyek
 └── assets/             # (Optional) Folder untuk gambar/assets
-    └── images/
+    └── foto1.png
 ```
 
 ### Penjelasan File
@@ -185,18 +185,8 @@ Edit informasi personal di `index.html`:
 
 ```html
 <!-- Nama -->
-<h1>Nama Anda</h1>
+<h1>sandi fariz ahmadi</h1>
 
-<!-- Email -->
-<a href="mailto:email@anda.com">email@anda.com</a>
-
-<!-- Telepon -->
-<a href="tel:+628123456789">+62 812-3456-789</a>
-
-<!-- Social Media -->
-<a href="https://linkedin.com/in/username">LinkedIn</a>
-<a href="https://github.com/username">GitHub</a>
-```
 
 ### Menambah/Mengurangi Section
 
@@ -221,145 +211,6 @@ Untuk menambah section baru:
 
 3. Tambah styling di `style.css` sesuai kebutuhan
 
-## 🚀 Deploy
-
-### GitHub Pages (Recommended)
-
-1. **Buat Repository**
-   ```bash
-   # Buat repo dengan nama: username.github.io
-   ```
-
-2. **Upload Files**
-   ```bash
-   git add .
-   git commit -m "Initial commit"
-   git push origin main
-   ```
-
-3. **Enable GitHub Pages**
-   - Settings → Pages
-   - Source: main branch
-   - Save
-
-4. **Akses Website**
-   ```
-   https://username.github.io
-   ```
-
-### Netlify
-
-1. **Drag & Drop**
-   - Buka [netlify.com/drop](https://app.netlify.com/drop)
-   - Drag folder project Anda
-   - Done! Otomatis deploy
-
-2. **Via GitHub**
-   ```bash
-   # Connect repository di Netlify dashboard
-   # Auto deploy setiap push
-   ```
-
-3. **Custom Domain**
-   - Domain settings → Add custom domain
-   - Update DNS settings
-
-### Vercel
-
-1. **Install Vercel CLI**
-   ```bash
-   npm i -g vercel
-   ```
-
-2. **Deploy**
-   ```bash
-   cd portfolio-cv
-   vercel
-   ```
-
-3. **Production**
-   ```bash
-   vercel --prod
-   ```
-
-### Hosting Tradisional (cPanel/FTP)
-
-1. Compress semua files ke ZIP
-2. Upload via File Manager atau FTP
-3. Extract di public_html
-4. Akses via domain Anda
-
-## 🌐 Browser Support
-
-Website ini support browser modern:
-
-| Browser | Version |
-|---------|---------|
-| Chrome  | ✅ 90+  |
-| Firefox | ✅ 88+  |
-| Safari  | ✅ 14+  |
-| Edge    | ✅ 90+  |
-| Opera   | ✅ 76+  |
-
-### Required Features:
-- CSS Grid & Flexbox
-- CSS Variables
-- CSS Animations
-- Intersection Observer API
-- ES6 JavaScript
-
-## 📱 Responsive Breakpoints
-
-```css
-/* Mobile First Approach */
-/* Base: Mobile (< 768px) */
-
-/* Tablet */
-@media (min-width: 768px) { ... }
-
-/* Desktop */
-@media (min-width: 1024px) { ... }
-
-/* Large Desktop */
-@media (min-width: 1440px) { ... }
-```
-
-## ⚡ Performance Tips
-
-1. **Optimize Images**
-   - Gunakan format WebP
-   - Compress images (TinyPNG)
-   - Lazy loading untuk images
-
-2. **Minify Files**
-   ```bash
-   # CSS
-   cssnano style.css style.min.css
-   
-   # JavaScript
-   uglifyjs script.js -o script.min.js
-   ```
-
-3. **Enable Caching**
-   - Set proper cache headers
-   - Use CDN untuk assets
-
-## 🐛 Troubleshooting
-
-### Issue: Animasi tidak berjalan
-**Solution:** Pastikan file `script.js` ter-load dengan benar
-```html
-<script src="script.js"></script>
-```
-
-### Issue: Style tidak muncul
-**Solution:** Check path file CSS
-```html
-<link rel="stylesheet" href="style.css">
-```
-
-### Issue: Font tidak load
-**Solution:** Check koneksi internet atau download font locally
 
 ## 📄 Lisensi
 
@@ -389,11 +240,7 @@ SOFTWARE.
 
 **Sandi Fariz Ahmadi**
 
-- 📧 Email: sandi.fariz@email.com
-- 💼 LinkedIn: [linkedin.com/in/sandifariaz](https://linkedin.com/in/sandifariaz)
-- 🐙 GitHub: [github.com/sandifariaz](https://github.com/sandifariaz)
-- 📸 Instagram: [@sandifariaz](https://instagram.com/sandifariaz)
-- 📍 Location: Malang, Jawa Timur, Indonesia
+- 📧 Email: sandifariz@webmail.umm.ac.id
 
 ## 🙏 Acknowledgments
 
@@ -414,4 +261,4 @@ SOFTWARE.
 
 **⭐ Jika project ini membantu, jangan lupa berikan star!**
 
-**Made with ❤️ and ☕ by Sandi Fariz Ahmadi**
+**Made by Sandi Fariz Ahmadi**
